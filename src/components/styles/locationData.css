@@ -1,0 +1,37 @@
+.location{
+    background-color: #072226;
+    max-width: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.location__name{
+    font-family: monospace;
+    color: #7CBA24;
+    text-align: center;
+    font-size: 18px;
+}
+
+.location__list{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.location__item{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location__item span:last-child{
+    color: #777;
+    font-family: monospace;
+}

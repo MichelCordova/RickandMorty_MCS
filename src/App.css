@@ -1,0 +1,113 @@
+
+/*------ RESET -----*/
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  height: 20px;
+  text-align: center;
+}
+
+button{
+  border: none;
+  padding: 0 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+/*------ APP -----*/
+
+.app{
+  background-color: #05292E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: auto;
+  min-height: 100vh;
+  
+}
+
+.app__img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding-bottom: 5px;
+  box-shadow: 0 0 15px;
+  overflow: hidden;
+
+}
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.app__form{
+  max-width: 100%;
+  max-height: auto;
+  margin-top: 40px;
+  margin-bottom: 20;
+  display: flex;
+  align-items: center;
+  
+}
+
+.app__input{
+  border-radius: 5px 0 0 5px;
+}
+
+.app__btn{
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: #71A821;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  
+}
+
+.app__btn:hover{
+  filter: brightness(1.1);
+}
+
+.app__error{
+  min-width: auto;
+  min-height: auto;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+
+}
+

@@ -1,8 +1,26 @@
-# React + Vite
+APP Rick and Morty con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción
 
-Currently, two official plugins are available:
+Esta es una aplicación desarrollada con React que consume la API de Rick and Morty para mostrar los personajes de la serie organizados por cada universo. Los usuarios pueden explorar los diferentes universos y
+ver una lista de los personajes pertenecientes a cada uno, incluyendo detalles como el nombre, la imagen y el estado de los personajes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologías Utilizadas
+
+Frontend: React, JSX, HTML, CSS.
+API: API pública de Rick and Morty 
+Otros: Axios para las peticiones HTTP
+
+
+Características
+Explorar universos: Muestra los universos disponibles en la serie y sus personajes.
+Detalle de personajes: Muestra información básica de cada personaje, como nombre, imagen y estado.
+Paginación: La lista de personajes es paginada para mejorar la navegación.
+Interfaz moderna y responsiva: Usando TailwindCSS para un diseño limpio y adaptativo.
+Consumo de la API de Rick and Morty: La aplicación consume la API pública de Rick and Morty utilizando Axios para obtener los datos.
+
+
+Instalación
+Requisitos Previos
+Node.js (versión 14.0.1 o superior)
+npm o yarn para la gestión de dependencias
